@@ -1,51 +1,55 @@
+import App from "./App";
+
 const data = [
     {
         id: 1,
         Name:"Agra",
         info:"",
         image:"",
-        price:""
+        price:"34999",
     },
     {
         id: 2,
-        Name:"",
+        Name:"Jaipur",
         info:"",
         image:"",
-        price:""
+        price:"29999",
     },
     {
         id: 3,
-        Name:"",
+        Name:"Goa",
         info:"",
         image:"",
-        price:""
+        price:"41999"
     },
     {
         id: 4,
-        Name:"",
+        Name:"Varanasi",
         info:"",
         image:"",
-        price:""
+        price:"37999"
     },
     {
         id: 5,
-        Name:"",
+        Name:"Darjeeling",
         info:"",
         image:"",
-        price:""
+        price:"46999"
     },
     {
         id: 6,
-        Name:"",
+        Name:"Jaisalmer",
         info:"",
         image:"",
-        price:""
+        price:"24999"
     },
     {
         id: 7,
-        Name:"",
+        Name:"Kochi",
         info:"",
         image:"",
-        price:""
+        price:"32999"
     }
 ]
+
+export default data;

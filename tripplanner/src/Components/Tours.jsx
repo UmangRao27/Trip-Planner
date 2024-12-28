@@ -1,6 +1,6 @@
+import Card from "./card";
 
-
-function Tours({Tours}) {
+function Tours({Tours, removeTour}) {
 
     return(
         <div>
@@ -9,8 +9,8 @@ function Tours({Tours}) {
             </div>
             <div>
                 {
-                    Tours.map( (Tour) => {
-                        return <Card {...Tour}></Card>
+                    Tours.map( (tour) => {
+                        return <Card {...tour} removeTour={removeTour}></Card>
                     } )
                 }
             </div>
